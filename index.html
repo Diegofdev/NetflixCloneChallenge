@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/main.css">
+
+    <!--owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
     <title>NETFLIX CLONE</title>
 </head>
 <body>
@@ -26,20 +31,54 @@
             <div class="container">
                 <h3 class="titulo">DRAGON BALL SUPER</h3>
                 <p class="descricao">Seis meses após a derrota de Majin Buu, Goku arranja um novo emprego como... Fazendeiro de nabos. Agora que a Terra está em paz, nossos heróis levam vidas mundanas, mas não por muito tempo. Longe dali, Bills, o poderoso Deus da Destruição, recebe uma profecia de que encontrará seu fim nas mãos de um ser ainda mais poderoso, e sua busca pelo Deus dos Saiyajins o traz para a Terra. Será que Goku e seus amigos conseguirão derrotar seu mais poderoso inimigo até então?</p>
+            
+                <div class="botoes">
+                    <button role="button" class="botao">
+                        <i class="fas fa-play"></i>
+                        ASSISTIR AGORA
+                    </button>
+                    <button role="button" class="botao">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+                </div>
+
             </div>
-            <div class="botoes">
-                <button role="button" class="botao">
-                    <i class="fas fa-play"></i>
-                    ASSISTIR AGORA
-                </button>
-                <button role="button" class="botao">
-                    <i class="fas fa-info-circle"></i>
-                    MAIS INFORMAÇÕES
-                </button>
-            </div>
+            
             
         </div>
     </main>
 
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="img/1DragonBall.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/2DragonBallZ.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/3DragonBallGt.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/4DragonBallZKai.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/5DragonBallAbsalon.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/6DragonBallSuper.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/7DragonBallHeroes.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
     <script src="https://kit.fontawesome.com/3923a3c927.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+
+
 </html>
