@@ -1,6 +1,6 @@
 /*Variaveis*/
 :root{
-    --vermelho: #E50914;
+    --laranja: rgb(251,186,63);
     --preta: #141414;
 }
 
@@ -16,7 +16,7 @@
 
 body{
     background: var(--preta);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
 
@@ -29,8 +29,11 @@ header .container{
 
 header .logo{
     margin-left: 10px;
-    color: var(--vermelho);
-    font-family: 'Arial Black', Times;
+    color: var(--laranja);
+    background: -webkit-radial-gradient(circle, rgba(251,186,63,1) 0%, rgba(252,127,0,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Mochiy Pop P One', sans-serif;
     font-size: 40px;
 }
 
@@ -38,10 +41,13 @@ header nav a{
     text-decoration: none;
     color: #AAA;
     margin-right: 10px;
+    transition: .4s ease all;
 }
 
 header nav a:hover {
-    color: #FFF;
+    color: rgb(251,186,63);
+    font-size: 20px;
+    transition: .4s ease all;
 }
 
 /*Filme principal*/
@@ -107,4 +113,8 @@ header nav a:hover {
     height: 100%;
     width: 100%;
     display: block;
+}
+
+.carrosel-filmes{
+    margin-top: 5px;
 }
